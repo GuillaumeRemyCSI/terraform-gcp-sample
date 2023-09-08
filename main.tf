@@ -1,5 +1,4 @@
 provider "google" {
-    credentials = file("formation-devops-0bec2a0a6fa0.json")
     project = var.project
     region = var.region
     zone = var.zone
